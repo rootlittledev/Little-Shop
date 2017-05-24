@@ -8,8 +8,8 @@
     android:background="@drawable/back_1">
     <ViewFlipper
         android:id="@+id/new_items"
-        android:layout_width="340dp"
-        android:layout_height="100dp"
+        android:layout_width="@dimen/flipper_standard_width"
+        android:layout_height="@dimen/flipper_standard_height"
         android:layout_centerHorizontal="true"
         android:background="@color/transparentBlack"
 
@@ -24,7 +24,7 @@
             <ImageButton
                 android:id="@+id/item_1_button"
                 android:layout_width="70dp"
-                android:layout_height="100dp"
+                android:layout_height="@dimen/flipper_standard_height"
                 android:background="@color/white"
                 android:src="@drawable/game_assassins_creed"
                 android:contentDescription="@string/item_1"
@@ -35,7 +35,7 @@
             <ImageButton
                 android:id="@+id/item_2_button"
                 android:layout_width="70dp"
-                android:layout_height="100dp"
+                android:layout_height="@dimen/flipper_standard_height"
                 android:background="@color/white"
                 android:src="@drawable/game_call_of_duty"
                 android:contentDescription="@string/item_1"
@@ -48,7 +48,7 @@
             <ImageButton
                 android:id="@+id/item_3_button"
                 android:layout_width="70dp"
-                android:layout_height="100dp"
+                android:layout_height="@dimen/flipper_standard_height"
                 android:background="@color/white"
                 android:src="@drawable/game_watch_dogs"
                 android:contentDescription="@string/item_1"
@@ -61,7 +61,7 @@
             <ImageButton
                 android:id="@+id/item_4_button"
                 android:layout_width="70dp"
-                android:layout_height="100dp"
+                android:layout_height="@dimen/flipper_standard_height"
                 android:background="@color/white"
                 android:src="@drawable/game_battle_field"
                 android:contentDescription="@string/item_1"
@@ -75,8 +75,8 @@
     </ViewFlipper>
             <ViewFlipper
                 android:id="@+id/hot_items"
-                android:layout_width="340dp"
-                android:layout_height="100dp"
+                android:layout_width="@dimen/flipper_standard_width"
+                android:layout_height="@dimen/flipper_standard_height"
                 android:background="@color/transparentGrey"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
@@ -91,7 +91,7 @@
                     <ImageButton
                         android:id="@+id/item_hot_1_button"
                         android:layout_width="70dp"
-                        android:layout_height="100dp"
+                        android:layout_height="@dimen/flipper_standard_height"
                         android:background="@color/white"
                         android:src="@drawable/game_alpha_protocol"
                         android:contentDescription="@string/item_1"
@@ -102,7 +102,7 @@
                     <ImageButton
                         android:id="@+id/item_hot_2_button"
                         android:layout_width="70dp"
-                        android:layout_height="100dp"
+                        android:layout_height="@dimen/flipper_standard_height"
                         android:background="@color/white"
                         android:src="@drawable/game_age_of_empires"
                         android:contentDescription="@string/item_1"
@@ -115,7 +115,7 @@
                     <ImageButton
                         android:id="@+id/item_hot_3_button"
                         android:layout_width="70dp"
-                        android:layout_height="100dp"
+                        android:layout_height="@dimen/flipper_standard_height"
                         android:background="@color/white"
                         android:src="@drawable/game_batman"
                         android:contentDescription="@string/item_1"
@@ -128,7 +128,7 @@
                     <ImageButton
                         android:id="@+id/item_hot_4_button"
                         android:layout_width="70dp"
-                        android:layout_height="100dp"
+                        android:layout_height="@dimen/flipper_standard_height"
                         android:background="@color/white"
                         android:src="@drawable/game_call_of_duty_mwf"
                         android:contentDescription="@string/item_1"
@@ -144,7 +144,7 @@
 
     <RelativeLayout
         android:layout_marginTop="20dp"
-        android:layout_width="340dp"
+        android:layout_width="@dimen/flipper_standard_width"
         android:layout_height="240dp"
         android:layout_below="@+id/hot_items"
         android:layout_centerHorizontal="true"

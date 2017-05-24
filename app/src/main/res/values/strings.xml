@@ -7,4 +7,6 @@
     <string name="action_settings">Settings</string>
     <string name="item_1">Item 1</string>
     <string name="bestsellers">Best sellers</string>
+    <string name="authorization_label">Authorization</string>
+    <string name="login">Login</string>
 </resources>

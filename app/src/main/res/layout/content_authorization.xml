@@ -3,4 +3,37 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/authorization_label"
+        android:layout_marginTop="@dimen/nav_header_vertical_spacing"
+        android:layout_width="@dimen/standard_weight"
+        android:layout_height="@dimen/standard_height"
+        android:layout_centerHorizontal="true"
+        android:text="@string/authorization_label"
+        android:textAlignment="center"
+        android:textSize="20pt"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="@dimen/standard_weight"
+            android:layout_height="@dimen/standard_height"
+            android:layout_marginTop="@dimen/nav_header_vertical_spacing"/>
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="@dimen/standard_weight"
+            android:layout_height="@dimen/standard_height"
+            android:layout_below="@id/username"
+            android:layout_marginTop="@dimen/nav_header_vertical_spacing"/>
+        <Button
+            android:layout_width="@dimen/standard_weight"
+            android:layout_height="@dimen/standard_height"
+            android:layout_below="@id/password"
+            android:text="@string/login"
+            android:textSize="18pt"/>
+    </RelativeLayout>
+
 </RelativeLayout>
